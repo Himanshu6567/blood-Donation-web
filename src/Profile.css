@@ -1,0 +1,193 @@
+.new {
+  background-color: #c70100;
+  width: 100%;
+  height: 13%;
+  position: absolute;
+  border-radius: 15px;
+}
+.title {
+  color: white;
+  position: absolute;
+  left: 3%;
+  font-size: 5vmin;
+}
+.back:hover {
+  color: rgb(204, 194, 194);
+  cursor: pointer;
+}
+.bam {
+  position: absolute;
+  left: 4%;
+  top: 22%;
+  height: 71%;
+  width: 35%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+.dan {
+  position: absolute;
+  right: 4%;
+  top: 22%;
+  height: 71%;
+  width: 35%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+.upre {
+  position: absolute;
+  right: 4%;
+  top: 22%;
+  height: 34%;
+  width: 55%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+.niche {
+  position: absolute;
+  right: 4%;
+  top: 58%;
+  height: 34%;
+  width: 55%;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+.pp {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: 40%;
+  border-radius: 25px;
+}
+.bloody {
+  position: absolute;
+  right: 12%;
+  top: 40%;
+  background-color: #c70100;
+  color: white;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  text-align: center;
+  line-height: 50px;
+  border: 3px solid white;
+  font-weight: bold;
+}
+
+.inform {
+  padding-left: 10%;
+  font-family: serif;
+  font-weight: bold;
+}
+.nametag {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  font-weight: bold;
+  font-size: 4vmin;
+  width: 80%;
+}
+.tag {
+  position: absolute;
+  top: 36%;
+  left: 10%;
+  color: white;
+  width: 80%;
+}
+
+.bar {
+  border: 1px solid black;
+  width: 90%;
+  height: 3vmin;
+  border-radius: 25px;
+}
+.done {
+  background-color: greenyellow;
+  height: 100%;
+  width: 50%;
+  border-radius: 25px 0 0 25px;
+  text-align: center;
+}
+.h2 {
+  font-size: 4vmin;
+  font-weight: bold;
+  padding-bottom: 3%;
+}
+
+.h4 {
+  font-size: 2vmin;
+  padding-bottom: 3%;
+}
+
+.choto {
+  font-size: 2vmin;
+  font-weight: 200;
+}
+
+.faltu {
+  width: 5%;
+  height: 5%;
+  padding-right: 2%;
+}
+.non {
+  font-size: 3vmin;
+  font-weight: bold;
+  padding-left: 3%;
+  cursor: pointer;
+  padding-top: 2%;
+}
+.active {
+  color: #c70100;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 2vmin;
+}
+
+.kobe {
+  font-size: 3vmin;
+}
+.from {
+  font-size: 3vmin;
+  font-weight: bold;
+}
+
+.other {
+  width: 7%;
+  height: 7%;
+  border-radius: 50%;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 3%;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
+.comment {
+  font-style: oblique;
+  font-size: 3vmin;
+  padding-left: 5%;
+  padding-right: 5%;
+}

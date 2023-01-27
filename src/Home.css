@@ -1,0 +1,218 @@
+.content {
+  background-color: rgb(236, 229, 229);
+  width: 82%;
+  height: 97vmin;
+  border-radius: 15px;
+  margin-left: 18%;
+  position: relative;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    margin-left: 0.5%;
+    width: 100%;
+  }
+}
+
+.map {
+  padding-left: 40%;
+  padding-top: 21%;
+  position: fixed;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+.word {
+  padding-bottom: 10px;
+}
+
+/*slider*/
+
+.slider {
+  position: relative;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out;
+  transition-duration: 1s;
+}
+
+.show {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 20%;
+  height: 70%;
+  border-radius: 15px;
+}
+
+.left {
+  position: absolute;
+  left: 10%;
+  font-size: 7vmin;
+  z-index: 10;
+  user-select: none;
+  cursor: pointer;
+  color: black;
+}
+
+.right {
+  position: absolute;
+  right: 10%;
+  font-size: 7vmin;
+  z-index: 10;
+  user-select: none;
+  cursor: pointer;
+  color: black;
+}
+
+.left:hover {
+  color: #c70100;
+}
+.right:hover {
+  color: #c70100;
+}
+
+/*topnav*/
+
+.name {
+  color: white;
+  position: absolute;
+  height: 100%;
+  right: 8%;
+  top: 35%;
+  font-size: 3vmin;
+}
+
+/* .dp {
+    height: 80%;
+    width: 6%;
+    border-radius: 50%;
+    position: absolute;
+    top:10%;
+    right: 1%;
+} */
+
+.top {
+}
+
+/*try
+
+*/
+.new {
+  background-color: #c70100;
+  width: 100%;
+  height: 13%;
+  position: absolute;
+  border-radius: 15px;
+}
+.title {
+  color: white;
+  position: absolute;
+  left: 3%;
+  font-size: 5vmin;
+}
+
+.then {
+  position: absolute;
+  top: 14%;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+
+.last {
+  position: absolute;
+  top: 54%;
+  width: 100%;
+  height: 47%;
+}
+
+.part1 {
+  margin-left: 3%;
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  right: 3%;
+}
+.part2 {
+  position: absolute;
+  width: 34%;
+  height: 90%;
+  left: 6%;
+  padding-left: 3%;
+  color: #140635;
+  font-family: "Georgia", serif;
+}
+
+.icon {
+  color: #140635;
+  cursor: pointer;
+}
+.icon:hover {
+  color: #ec9191;
+  cursor: pointer;
+}
+
+.badge {
+  position: relative;
+  top: -20%;
+  left: -10px;
+  border: 1px solid black;
+  color: white;
+  background-color: #c70100;
+  border-radius: 40%;
+  font-size: 2vmin;
+}
+.btn {
+  margin-top: 3%;
+  margin-left: 0;
+  height: 7vmin;
+  width: 7vmin;
+  border-radius: 50%;
+  background-color: #b5c5d1;
+  border-color: #b5c5d1;
+}
+.btn1 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: 7vmin;
+  width: 7vmin;
+  border-radius: 50%;
+  background-color: #b5c5d1;
+  border-color: #b5c5d1;
+}
+
+.request {
+  width: 5vmin;
+  height: 5vmin;
+  color: black;
+}
+.h2 {
+  font-size: 3vmin;
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
+.icon-name {
+  color: black;
+  font-size: 2vmin;
+  padding-left: 1%;
+  padding-bottom: 3%;
+}
+
+@media screen and (max-width: 700px) {
+  .part2 {
+    left: 0;
+    padding-left: 1%;
+    width: 40%;
+  }
+}
+
+.fukku {
+  margin-right: 6%;
+}
+
+.fuk {
+  margin-right: 9%;
+}
